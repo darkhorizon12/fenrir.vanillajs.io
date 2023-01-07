@@ -1,3 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.text-box h2 {
+    font-family: 'Staatliches', cursive;
+}
+
+.text-box span {
+    font-family: 'Montserrat', cursive;
+    font-weight: bold;
+}
+
 .hidden {
     display: none;
+}
+
+span {
+    margin-right: 5px;
+}
+
+.input-gradient {
+    width: 200px;
+    height: 25px;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.input-todo {
+    width: 200px;
+    height: 25px;
+    background-color: azure;
+    color: black;
+}
+
+.btn-gradient {
+    width: 50px;
+    height: 25px;
+    background-color: antiquewhite;
+    color: black;
+}
+
+ul.mylist li, ol.mylist li {
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #efefef;
+    font-size: 12px;
 }
